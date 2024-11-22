@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: commerce_store
+  uuid: 80d1aaa5-72f0-44ec-8738-45a5eca06d5d
+  bundle: online
+  default_langcode: en
+default:
+  name:
+    -
+      value: 'Default Store'
+  type:
+    -
+      target_id: 'online'
+  default_currency:
+    -
+      target_id: 'EUR'
+  timezone:
+    -
+      value: 'Europe/Madrid'
+  address:
+    -
+      country_code: ES
+      locality: UNDEFINED
+      address_line1: UNDEFINED
+      postal_code: 20002
+      administrative_area: M
+  mail: { }
+  billing_countries: { }

@@ -1,0 +1,22 @@
+name: 'D4NFP'
+description: 'Initial configuration for the Commerce'
+type: 'Commerce'
+install:
+  - commerce
+  - commerce_log
+  - commerce_number_pattern
+  - commerce_order
+  - commerce_store
+  - commerce_price
+  - commerce_cart
+  - commerce_product
+config:
+  import:
+    commerce: '*'
+    commerce_log: '*'
+    commerce_number_pattern: '*'
+    commerce_order: '*'
+    commerce_store: '*'
+    commerce_price: '*'
+    commerce_cart: '*'
+    commerce_product: '*'

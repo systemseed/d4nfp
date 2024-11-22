@@ -1,0 +1,12 @@
+{
+  "name": "drupal/d4nfp",
+  "type": "drupal-recipe",
+  "description": "Initial configuration to install Drupal Commerce",
+  "homepage": "https://github.com/systemseed/d4nfps",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/core": "^10.3 || ^11",
+    "drupal/commerce": "^3.0",
+  }
+}
