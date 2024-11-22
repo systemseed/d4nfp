@@ -1,5 +1,5 @@
 {
-  "name": "drupal/d4nfp",
+  "name": "systemseed/d4nfp",
   "type": "drupal-recipe",
   "description": "Initial configuration to install Drupal Commerce",
   "homepage": "https://github.com/systemseed/d4nfps",
