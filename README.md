@@ -26,7 +26,7 @@ running Drupal.
     ```
     "web/recipes/contrib/{$name}": [
       "type:drupal-recipe"
-      ],
+    ],
     ```
 3. Pull this recipe to your file system:
     ```
