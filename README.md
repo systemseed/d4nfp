@@ -14,7 +14,7 @@ running Drupal.
     ddev start
     ddev composer create drupal/recommended-project -y
     ddev composer require --dev drush/drush
-    ddev composer config minimum-stability rc
+    ddev composer config minimum-stability dev
     ddev drush site:install minimal --account-name=admin --account-pass=admin -y
     ddev composer require --dev drupal/core-dev
     ddev drush theme:enable claro
