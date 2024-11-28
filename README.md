@@ -19,7 +19,7 @@ running Drupal.
     ddev composer require --dev drupal/core-dev
     ddev drush theme:enable claro
     ddev drush config-set system.theme default claro -y
-    ddev snapshot --name=d4nfp
+    ddev snapshot --name=eleos-charity
     ```
 
 2. Update composer.json to define a recipe path: Add to `installer-paths`:
@@ -32,16 +32,20 @@ running Drupal.
     ```
     ddev composer require systemseed/eleos-charity
     ```
-4. Install the recipe:
+4. Clear the cache:
+    ```
+    ddev drush cr
+    ```
+5. Install the recipe:
     ```
     ddev drush recipe recipes/contrib/eleos-charity
     ```
-5. Login and go to the ddev environment to the following path `https://d4nfp.ddev.site/admin/commerce/config/stores` and ensure that `Default Store` was created automatically.
+6. Login and go to the ddev environment to the following path `https://eleos-charity.ddev.site/admin/commerce/config/stores` and ensure that `Default Store` was created automatically.
     ```
     ddev drush user:login
     ```
-6. Configure `d4nfp` recipe for contributions:
+7. Configure `eleos-charity` recipe for contributions:
     ```
-    rm web/recipes/contrib/eleos-charity
-    git clone git@github.com:systemseed/d4nfp.git web/recipes/contrib/eleos-charity
+    rm -r web/recipes/contrib/eleos-charity
+    git clone git@github.com:systemseed/eleos-charity.git web/recipes/contrib/eleos-charity
     ```

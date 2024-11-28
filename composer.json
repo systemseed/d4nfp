@@ -2,7 +2,7 @@
   "name": "systemseed/eleos-charity",
   "type": "drupal-recipe",
   "description": "Initial configuration to install Drupal Commerce",
-  "homepage": "https://github.com/systemseed/d4nfps",
+  "homepage": "https://github.com/systemseed/eleos-charity",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "require": {
