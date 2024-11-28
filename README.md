@@ -1,5 +1,5 @@
-# d4nfps
-Drupal for non-for-profits based on top of Drupal Recipes
+# Eleos Charity
+Eleos Charity based on top of Drupal Recipes
 
 ## Installation
 
@@ -8,8 +8,8 @@ running Drupal.
 
 1. Create a new project and configure it:
     ```
-    mkdir drupal-charity
-    cd drupal-charity
+    mkdir eleos-charity
+    cd eleos-charity
     ddev config --project-type drupal --docroot web --php-version 8.3
     ddev start
     ddev composer create drupal/recommended-project -y
@@ -30,11 +30,11 @@ running Drupal.
     ```
 3. Pull this recipe to your file system:
     ```
-    ddev composer require systemseed/d4nfp
+    ddev composer require systemseed/eleos-charity
     ```
 4. Install the recipe:
     ```
-    ddev drush recipe recipes/contrib/d4nfp
+    ddev drush recipe recipes/contrib/eleos-charity
     ```
 5. Login and go to the ddev environment to the following path `https://d4nfp.ddev.site/admin/commerce/config/stores` and ensure that `Default Store` was created automatically.
     ```
@@ -42,6 +42,6 @@ running Drupal.
     ```
 6. Configure `d4nfp` recipe for contributions:
     ```
-    rm web/recipes/contrib/d4nfp
-    git clone git@github.com:systemseed/d4nfp.git web/recipes/contrib/d4nfp
+    rm web/recipes/contrib/eleos-charity
+    git clone git@github.com:systemseed/d4nfp.git web/recipes/contrib/eleos-charity
     ```
