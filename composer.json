@@ -1,8 +1,8 @@
 {
-  "name": "systemseed/eleos-charity",
+  "name": "systemseed/eleos_charity",
   "type": "drupal-recipe",
   "description": "Initial configuration to install Drupal Commerce",
-  "homepage": "https://github.com/systemseed/eleos-charity",
+  "homepage": "https://github.com/systemseed/eleos_charity",
   "license": "GPL-2.0-or-later",
   "minimum-stability": "dev",
   "require": {
