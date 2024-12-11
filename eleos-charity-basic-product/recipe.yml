@@ -1,0 +1,5 @@
+name: 'Eleos Charity - Basic Product'
+description: 'A basic Commerce product'
+type: 'Commerce'
+recipes:
+  - eleos-charity-shop-category
