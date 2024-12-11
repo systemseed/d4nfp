@@ -1,22 +1,7 @@
 name: 'Eleos Charity'
-description: 'Initial configuration for the Commerce'
+description: 'A suite of Commerce recipes for Drupal Charity sites'
 type: 'Commerce'
-install:
-  - commerce
-  - commerce_log
-  - commerce_number_pattern
-  - commerce_order
-  - commerce_store
-  - commerce_price
-  - commerce_cart
-  - commerce_product
-config:
-  import:
-    commerce: '*'
-    commerce_log: '*'
-    commerce_number_pattern: '*'
-    commerce_order: '*'
-    commerce_store: '*'
-    commerce_price: '*'
-    commerce_cart: '*'
-    commerce_product: '*'
+recipes:
+  - recipes/contrib/eleos_charity/eleos_charity_commerce_base
+  - recipes/contrib/eleos_charity/eleos_charity_shop_category
+  - recipes/contrib/eleos_charity/eleos_charity_basic_product

@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: basic
+label: 'Basic Product'
+traits: {  }
+locked: false
+description: 'A basic product type.'
+variationType: basic
+variationTypes:
+  - basic
+multipleVariations: true
+injectVariationFields: true

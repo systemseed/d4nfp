@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Shop categories'
+vid: shop_categories
+description: 'Product categories for the shop.'
+weight: 0
+new_revision: false

@@ -1,0 +1,9 @@
+name: 'Eleos Charity - Shop Category'
+description: 'A category for Eleos Charity shops'
+type: 'Commerce'
+recipes:
+  - core/recipes/image_media_type
+install:
+  - media
+  - media_library
+  - taxonomy
