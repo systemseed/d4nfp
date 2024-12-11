@@ -38,7 +38,7 @@ running Drupal.
     ```
 5. Install the recipe:
     ```
-    ddev drush recipe recipes/contrib/eleos-charity
+    ddev drush recipe recipes/contrib/eleos-charity/eleos-charity-commerce-base
     ```
 6. Login and go to the ddev environment to the following path `https://eleos-charity.ddev.site/admin/commerce/config/stores` and ensure that `Default Store` was created automatically.
     ```

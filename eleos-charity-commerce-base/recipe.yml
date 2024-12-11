@@ -1,5 +1,5 @@
-name: 'Eleos Charity'
-description: 'Initial configuration for the Commerce'
+name: 'Eleos Charity - Commerce Base'
+description: 'Initial configuration for Commerce'
 type: 'Commerce'
 install:
   - commerce
