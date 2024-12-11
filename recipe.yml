@@ -2,6 +2,6 @@ name: 'Eleos Charity'
 description: 'A suite of Commerce recipes for Drupal Charity sites'
 type: 'Commerce'
 recipes:
-  # The Basic Product recipe depends upon both shop categories and commerce base
-  # recipes. Therefore, installing it effectively installs the full "suite".
+  - recipes/contrib/eleos_charity/eleos_charity_commerce_base
+  - recipes/contrib/eleos_charity/eleos_charity_shop_category
   - recipes/contrib/eleos_charity/eleos_charity_basic_product
