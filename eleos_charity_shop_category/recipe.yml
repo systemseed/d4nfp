@@ -3,8 +3,8 @@ description: 'A category for Eleos Charity shops'
 type: 'Commerce'
 recipes:
   - core/recipes/image_media_type
-  - eleos-charity-commerce-base
+  - eleos_charity_commerce_base
 install:
-  - taxonomy
   - media
   - media_library
+  - taxonomy

@@ -1,4 +1,5 @@
 # Eleos Charity
+
 Eleos Charity based on top of Drupal Recipes
 
 ## Installation
@@ -19,7 +20,7 @@ running Drupal.
     ddev composer require --dev drupal/core-dev
     ddev drush theme:enable claro
     ddev drush config-set system.theme default claro -y
-    ddev snapshot --name=eleos-charity
+    ddev snapshot --name=eleos_charity
     ```
 
 2. Update composer.json to define a recipe path: Add to `installer-paths`:
@@ -30,15 +31,21 @@ running Drupal.
     ```
 3. Pull this recipe to your file system:
     ```
-    ddev composer require systemseed/eleos-charity
+    ddev composer require systemseed/eleos_charity
     ```
 4. Clear the cache:
     ```
     ddev drush cr
     ```
 5. Install the recipe:
+    To install only the "Commerce Base" recipe:
     ```
-    ddev drush recipe recipes/contrib/eleos-charity/eleos-charity-commerce-base
+    ddev drush recipe recipes/contrib/eleos_charity/eleos_charity_commerce_base
+    ```
+
+    To install the full Eleos Charity recipe Suite:
+    ```
+    ddev drush recipe recipes/contrib/eleos_charity
     ```
 6. Login and go to the ddev environment to the following path `https://eleos-charity.ddev.site/admin/commerce/config/stores` and ensure that `Default Store` was created automatically.
     ```
@@ -46,6 +53,6 @@ running Drupal.
     ```
 7. Configure `eleos-charity` recipe for contributions:
     ```
-    rm -r web/recipes/contrib/eleos-charity
-    git clone git@github.com:systemseed/eleos-charity.git web/recipes/contrib/eleos-charity
+    rm -r web/recipes/contrib/eleos_charity
+    git clone git@github.com:systemseed/eleos_charity.git web/recipes/contrib/eleos_charity
     ```
